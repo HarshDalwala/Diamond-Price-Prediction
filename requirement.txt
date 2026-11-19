@@ -4,4 +4,4 @@ Numpy
 scikit learn
 seaborn
 matplotlib
-plotly
+plotly.express
