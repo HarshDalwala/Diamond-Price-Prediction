@@ -28,7 +28,7 @@ st.set_page_config(
 st.title("Diamonds Data Analysis App")
 
 #data load
-df = pd.read_csv("C:\\Users\\admin\\Desktop\\Tops Technology\\Machine Learning\\data set\\1 Diamonds\\diamonds.csv")
+df = pd.read_csv("diamonds.csv")
 df.drop(columns=["Unnamed: 0"], inplace=True)
 #st.write(df.head())
 #st.table(df.describe())
